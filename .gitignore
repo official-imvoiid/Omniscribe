@@ -1,0 +1,47 @@
+# The portable environment - Miniconda, the conda env, ffmpeg. Rebuilt by install.bat.
+installer_files/
+
+# Model weights - ~18 GB. Fetched from Hugging Face, never committed.
+models/
+
+# Captions and media dropped in for testing
+*.txt
+!requirements.txt
+!LICENSE*
+!README*
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.avi
+*.m4v
+*.gif
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.ogg
+!docs/*.png
+!docs/*.gif
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Gradio
+.gradio/
+flagged/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
