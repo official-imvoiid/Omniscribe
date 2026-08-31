@@ -1,0 +1,21 @@
+# torch / torchvision / torchaudio come from install.bat via the CUDA index.
+# Never list them here - pip would pull the CPU build.
+#
+# Not listed because something above already installs them:
+#   numpy, pillow          -> torch / torchvision
+#   safetensors, tokenizers, huggingface_hub -> transformers
+#   numba, llvmlite, pooch, joblib, scikit-learn -> librosa
+
+transformers
+accelerate
+bitsandbytes
+gradio
+
+# omni media pipeline
+qwen-omni-utils
+av
+librosa
+audioread
+soundfile
+soxr
+sentencepiece
